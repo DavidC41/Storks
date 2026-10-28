@@ -7,6 +7,23 @@
     <link href="scss/miestilo.css" rel="stylesheet">
 </head>
 <body>
-    <div>Storks</div>
+
+    <div class="container mt-5">
+        <img src="img/ciguena_na.png" class="logo-ini">
+        <div>
+            <h3 class="name">Storks</h3>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="mb-3">
+            <label for="name" class="form-label">Correo electrónico o nombre de usuario</label>
+            <input type="text" id="name" class="form-control" required minlength="3">
+        <div class="invalid-feedback">El nombre debe tener al menos 3 caracteres.</div>
+        </div>
+        <button type="button" class="btn btn-primary">Registrarse</button>
+    </div>
+
+
 </body>
 </html>

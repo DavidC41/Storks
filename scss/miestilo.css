@@ -11980,5 +11980,10 @@ textarea.form-control-lg {
   }
 }
 body {
+  background-color: #ccf4ff;
+}
+
+button.btn-primary {
   background-color: #FA8E4C;
+  border-color: #FA8E4C;
 }/*# sourceMappingURL=miestilo.css.map */
