@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storks</title>
+    <title>Storks - Iniciar Sesión</title>
     <link href="scss/miestilo.css" rel="stylesheet">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-    <div class="container mt-5">
-        <img src="img/ciguena_na.png" alt="Logo de Storks" style="width: 500px">
-        <div>
-            <h3>Storks</h3>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="mb-3">
-            <label for="name" class="form-label">Correo electrónico o nombre de usuario</label>
-            <input type="text" id="name" class="form-control" required minlength="3">
-        <div class="invalid-feedback">El nombre debe tener al menos 3 caracteres.</div>
-        </div>
-        <button type="button" class="btn btn-primary">Registrarse</button>
-    </div>
-
-    <div>
+    <!-- Contenido principal centrado -->
+    <main class="container d-flex flex-column align-items-center justify-content-center flex-grow-1 text-center py-4">
         
-    </div>
+        <!-- Logo y Nombre de la app -->
+        <div class="mb-4">
+            <img src="img/ciguena_na.png" alt="Logo de Storks" class="img-fluid logo-storks mb-2">
+            <h1 class="brand-title">STORKS</h1>
+        </div>
+
+        <!-- Formulario -->
+        <form class="w-100" style="max-width: 380px;">
+            <div class="mb-3 text-center">
+                <label for="username" class="form-label fw-bold mb-2">
+                    Correo electrónico o nombre de la cuenta
+                </label>
+                <input type="text" id="username" class="form-control text-center" placeholder="..." required minlength="3">
+                <div class="invalid-feedback">El nombre debe tener al menos 3 caracteres.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold mt-2">Iniciar Sesión</button>
+        </form>
+
+        <!-- Sección de Registro -->
+        <div class="mt-4">
+            <p class="mb-1 fw-bold fs-6">¿No tienes cuenta?</p>
+            <a href="#" class="register-link">Registrarse</a>
+        </div>
+
+    </main>
+
+    <!-- Footer / Pie de página -->
+    <footer class="container py-3">
+        <div class="d-flex justify-content-between align-items-center px-md-5">
+            <a href="#" class="footer-link">Ayuda y atención al cliente</a>
+            <a href="#" class="footer-link">Política de privacidad</a>
+        </div>
+    </footer>
 
 </body>
 </html>
