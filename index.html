@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storks - Iniciar Sesión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;700&family=Barrio&family=BIZ+UDGothic:wght@400;700&family=Croissant+One&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="scss/miestilo.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -14,25 +17,25 @@
         <!-- Logo y Nombre de la app -->
         <div class="mb-4">
             <img src="img/ciguena_na.png" alt="Logo de Storks" class="img-fluid logo-storks mb-2">
-            <h1 class="brand-title">STORKS</h1>
+            <h1 class="brand-title">storks</h1>
         </div>
 
         <!-- Formulario -->
         <form class="w-100" style="max-width: 380px;">
             <div class="mb-3 text-center">
-                <label for="username" class="form-label fw-bold mb-2">
+                <label for="username" class="form-label custom-label fw-bold mb-2">
                     Correo electrónico o nombre de la cuenta
                 </label>
                 <input type="text" id="username" class="form-control text-center" placeholder="..." required minlength="3">
                 <div class="invalid-feedback">El nombre debe tener al menos 3 caracteres.</div>
             </div>
 
-            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold mt-2">Iniciar Sesión</button>
+            <button type="submit" class="custom-button btn btn-primary w-100 py-2 fw-bold mt-2">Iniciar Sesión</button>
         </form>
 
         <!-- Sección de Registro -->
         <div class="mt-4">
-            <p class="mb-1 fw-bold fs-6">¿No tienes cuenta?</p>
+            <p class="mb-1 fw-bold fs-6 custom-label">¿No tienes cuenta?</p>
             <a href="#" class="register-link">Registrarse</a>
         </div>
 

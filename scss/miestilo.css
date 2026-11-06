@@ -12005,6 +12005,7 @@ textarea.form-control-lg {
   color: #FA8E4C;
   font-weight: 800;
   letter-spacing: 1px;
+  font-family: "Barrio", cursive;
 }
 
 .register-link {
@@ -12012,6 +12013,7 @@ textarea.form-control-lg {
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: underline;
+  font-family: "Atma", cursive;
 }
 .register-link:hover {
   color: #FA8E4C;
@@ -12021,7 +12023,108 @@ textarea.form-control-lg {
   color: #000000;
   font-weight: bold;
   text-decoration: none;
+  font-family: "Atma", cursive;
 }
 .footer-link:hover {
   text-decoration: underline;
+}
+
+body.home-body {
+  background-color: #CCF4FF;
+}
+
+.navbar-storks {
+  background-color: #FA8E4C;
+}
+
+.brand-container {
+  background-color: #FA8E4C;
+}
+
+.brand-text {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: "Barrio", cursive;
+}
+
+.custom-input {
+  background-color: #FEB587;
+  border: none;
+  color: #fff;
+}
+.custom-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-orange-dark {
+  background-color: #FEB587;
+  border: none;
+  color: #000;
+}
+.btn-orange-dark:hover {
+  background-color: #e5a277;
+}
+
+.btn-icon {
+  border: none;
+  background: transparent;
+  color: #000;
+}
+.btn-icon:hover {
+  color: #fff;
+}
+
+.profile-btn {
+  border: 2px solid #000;
+  padding: 2px 8px;
+}
+
+.main-title {
+  font-weight: bold;
+  color: #000;
+  font-family: "Croissant One", serif;
+}
+
+.header-logo {
+  height: 60px;
+  width: auto;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  font-family: "Croissant One", serif;
+}
+
+.ver-mas-link {
+  color: #0d6efd;
+  font-weight: bold;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-family: "Atma", cursive;
+}
+.ver-mas-link:hover {
+  text-decoration: underline;
+}
+
+.product-card {
+  background-color: #FEB587;
+  border: 1px solid #1a8cff;
+  height: 110px;
+  border-radius: 4px;
+}
+
+.custom-label {
+  font-family: "Croissant One", serif;
+}
+
+.custom-button {
+  color: #ffffff;
+  font-family: "Atma", cursive;
 }/*# sourceMappingURL=miestilo.css.map */

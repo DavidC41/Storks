@@ -1,13 +1,19 @@
-// 1. Definición de colores principales
-$primary: #FA8E4C;        // Color naranja principal (botón e imagen/título)
-$body-bg: #CCF4FF;        // Fondo azul claro exacto de tu Figma
+// 1. Definición de colores principales y fuentes tipográficas
+$primary: #FA8E4C;
+$body-bg: #CCF4FF;
+
+$font-inter: 'Inter', sans-serif;
+$font-atma: 'Atma', cursive;
+$font-barrio: 'Barrio', cursive;
+$font-croissant: 'Croissant One', serif;
+$font-biz: 'BIZ UDGothic', sans-serif;
+
 
 // 2. Importar Bootstrap
 @import "bootstrap";
 
-// 3. Estilos personalizados para ajustar al diseño de Figma
+// 3. Estilos personalizados
 
-// Ajuste del Input
 .form-control {
     background-color: #FEB587;
     border: none;
@@ -34,6 +40,7 @@ $body-bg: #CCF4FF;        // Fondo azul claro exacto de tu Figma
     color: $primary;
     font-weight: 800;
     letter-spacing: 1px;
+    font-family: $font-barrio;
 }
 
 // Enlace de Registro
@@ -42,6 +49,7 @@ $body-bg: #CCF4FF;        // Fondo azul claro exacto de tu Figma
     font-weight: bold;
     font-size: 1.2rem;
     text-decoration: underline;
+    font-family: $font-atma;
 
     &:hover {
         color: $primary;
@@ -53,8 +61,113 @@ $body-bg: #CCF4FF;        // Fondo azul claro exacto de tu Figma
     color: #000000;
     font-weight: bold;
     text-decoration: none;
-
+    font-family: $font-atma;
     &:hover {
         text-decoration: underline;
     }
+}
+
+
+// Fondo general de la página principal
+body.home-body {
+    background-color: #CCF4FF;
+}
+
+// Barra superior
+.navbar-storks {
+    background-color: #FA8E4C;
+}
+
+.brand-container {
+    background-color: #FA8E4C;
+}
+
+.brand-text {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: $font-barrio;
+}
+
+
+// Barra de búsqueda
+.custom-input {
+    background-color: #FEB587;
+    border: none;
+    color: #fff;
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.btn-orange-dark {
+    background-color: #FEB587;
+    border: none;
+    color: #000;
+    &:hover {
+        background-color: #e5a277;
+    }
+}
+
+// Botones superiores de iconos
+.btn-icon {
+    border: none;
+    background: transparent;
+    color: #000;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.profile-btn {
+    border: 2px solid #000;
+    padding: 2px 8px;
+}
+
+// Títulos y Enlaces
+.main-title {
+    font-weight: bold;
+    color: #000;
+    font-family: $font-croissant;
+}
+
+.header-logo {
+    height: 60px;
+    width: auto;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    font-family: $font-croissant;
+}
+
+.ver-mas-link {
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-decoration: none;
+    font-family: $font-atma;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Tarjetas de productos
+.product-card {
+    background-color: #FEB587;
+    border: 1px solid #1a8cff;
+    height: 110px;
+    border-radius: 4px;
+}
+
+.custom-label {
+    font-family: $font-croissant;
+}
+
+.custom-button {
+    color: #ffffff;
+    font-family: $font-atma
 }
